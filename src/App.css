@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Import fonts from npm packages */
+@import "@fontsource/poppins/300.css";  /* light */
+@import "@fontsource/poppins/400.css";  /* regular */
+@import "@fontsource/poppins/500.css";  /* medium */
+@import "@fontsource/poppins/600.css";  /* semibold */
+@import "@fontsource/poppins/700.css";  /* bold */
+
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+@import "@fontsource/montserrat/300.css";
+@import "@fontsource/montserrat/400.css";
+@import "@fontsource/montserrat/500.css";
+@import "@fontsource/montserrat/600.css";
+@import "@fontsource/montserrat/700.css";
+
+@theme {
+  /* Primary colors */
+  --color-primary-blue: #1a1851;
+  --color-primary-yellow: #fcb315;
+  
+  /* Grayscale */
+  --color-gray-dark: #151515;
+  --color-gray-medium: #b3b3b3;
+  
+  /* Secondary colors */
+  --color-secondary-orange: #ff6418;
+  --color-secondary-orange-light: #ff9718;
+  --color-secondary-blue-dark: #031c2e;
+  --color-secondary-blue-medium: #0d4a77;
+  --color-secondary-blue-light: #329dea;
+  
+  /* Font families */
+  --font-book-antiqua: "Book Antiqua", serif;
+  --font-arial: Arial, sans-serif;
+  --font-century-gothic: "Century Gothic", sans-serif;
+  --font-franklin-gothic: "Franklin Gothic Book", sans-serif;
+  --font-poppins: Poppins, sans-serif;
+  --font-roboto: Roboto, sans-serif;
+  --font-montserrat: Montserrat, sans-serif;
+}
