@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://supply-api-n19n.onrender.com',
+        target: 'https://supply-api-apn3.onrender.com',
         changeOrigin: true,
       }
     }
